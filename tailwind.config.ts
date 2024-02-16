@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-        backgroundColor: {
-          'white' :'#F6FCFC',
-        },
+      backgroundColor: {
+        white: "#F6FCFC",
+      },
+      colors: {
+        black: "#061416",
+      },
     },
   },
   plugins: [],
