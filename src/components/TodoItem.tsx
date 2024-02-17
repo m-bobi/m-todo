@@ -19,6 +19,7 @@ export function TodoItem({
   toggleTodo,
   deleteTodo,
 }: TodoItemProps) {
+
   const [isDeleting, setIsDeleting] = useState(false);
 
   const handleDelete = async () => {

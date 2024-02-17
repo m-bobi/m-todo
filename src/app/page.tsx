@@ -34,40 +34,30 @@ async function CreateTodo(data: FormData) {
   redirect("..");
 }
 
-
 export default async function Home() {
   const todos = getTodos();
 
   return (
     <>
-      <header className="flex justify-between items-center">
-        <Link
+      <header className="flex justify-center items-center">
+        {/* <Link
           href={"#"}
           className="text-1xl font-medium px-4 py-2 rounded hover:bg-slate-100 outline-none  md:block lg:block hidden"
         >
           Lists
-        </Link>
+        </Link> */}
         <h1 className="text-3xl font-extrabold">TODO</h1>
-        <Link
+        {/* <Link
           href={"#"}
           className="text-1xl font-medium px-4 py-2 rounded hover:bg-slate-100 outline-none  md:block lg:block hidden"
         >
           Settings
-        </Link>
-        <Link href={"#"} className="md:hidden lg:hidden block">
-          <Image
-            src={"assets/menu.svg"}
-            width={30}
-            height={30}
-            alt={"menu"}
-          ></Image>
-        </Link>
+        </Link> */}
       </header>
       <hr className="w-auto" />
-
       <form
         action={CreateTodo}
-        className="flex gap-2 flex-col translate-y-52 sm:translate-y-52"
+        className="flex gap-2 flex-col translate-y-52 items-center sm:translate-y-52"
       >
         <input
           type="text"
