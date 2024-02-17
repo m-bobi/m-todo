@@ -11,7 +11,6 @@ type TodoItemProps = {
   deleteTodo: (id: string) => void;
 };
 
-
 export function TodoItem({
   id,
   title,
