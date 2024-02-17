@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import { prisma } from "@/db";
 import { TodoItem } from "@/components/TodoItem";
 import { redirect } from "next/navigation";
@@ -40,19 +38,7 @@ export default async function Home() {
   return (
     <>
       <header className="flex justify-center items-center">
-        {/* <Link
-          href={"#"}
-          className="text-1xl font-medium px-4 py-2 rounded hover:bg-slate-100 outline-none  md:block lg:block hidden"
-        >
-          Lists
-        </Link> */}
         <h1 className="text-3xl font-extrabold">TODO</h1>
-        {/* <Link
-          href={"#"}
-          className="text-1xl font-medium px-4 py-2 rounded hover:bg-slate-100 outline-none  md:block lg:block hidden"
-        >
-          Settings
-        </Link> */}
       </header>
       <hr className="w-auto" />
       <form
