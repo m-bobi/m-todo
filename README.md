@@ -2,7 +2,7 @@
 Hello friends! This is a project for educational purposes, I wanted to expose myself to typescript, bun and tailwindcss. So, I decided to make a todo app! I also used prisma as a database, something I've never used before.
 
 ## How does it work?
-I started with making a schema for the database, which is take a `title - string`, `complete - boolean`, these 2 are our main attributes the title represents the name of the todo, and the complete is to check if that todo is completed or not. 
+I started with making a schema for the database, which takes a `title - string`, `complete - boolean`, these 2 are our main attributes the title represents the name of the todo, and the complete is to check if that todo is completed or not. 
 After that, I created a React Component which I called `TodoItem` and it's designed to represent a todo item within a todo list.
 
 ### Props
