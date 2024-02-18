@@ -24,7 +24,9 @@ The Home component is a React functional component responsible for rendering a T
 
 ### Imports
 `prisma`: The Prisma client instance used to interact with the database.
+
 `TodoItem`: A custom component used to render individual TODO items.
+
 `redirect`: A function provided by Next.js used to redirect the user to another page.
 
 ### Functions
